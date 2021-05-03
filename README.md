@@ -34,7 +34,7 @@ Build the migration(s) in Knex inside the `data/migrations` folder using appropr
 
   - [ ] `project_id` - primary key
   - [ ] `project_name` - required
-  - [ ] `project_description` - optional
+  - [ ] `project_description`  optional
   - [ ] `project_completed` - the database defaults it to `false` (integer 0) if not provided
 
 - [ ] A **resource** is anything needed to complete a project and is stored in a `resources` table with the following columns:
