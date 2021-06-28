@@ -63,6 +63,7 @@ Build an API inside the `api` folder with endpoints for:
 - [x] `[GET] /api/resources`
   - Example of response body: `[{"resource_id":1,"resource_name":"foo","resource_description":null}]`
 
+
 - [x] `[POST] /api/projects`
   - Even though `project_completed` is stored as an integer, the API uses booleans when interacting with the client
   - Example of response body: `{"project_id":1,"project_name":"bar","project_description":null,"project_completed":false}`
@@ -70,6 +71,8 @@ Build an API inside the `api` folder with endpoints for:
 - [x] `[GET] /api/projects`
   - Even though `project_completed` is stored as an integer, the API uses booleans when interacting with the client
   - Example of response body: `[{"project_id":1,"project_name":"bar","project_description":null,"project_completed":false}]`
+
+  
 
 - [x] `[POST] /api/tasks`
   - Even though `task_completed` is stored as an integer, the API uses booleans when interacting with the client
@@ -113,6 +116,10 @@ After finishing your required elements, you can push your work further. These go
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. You might prepare by writing down your own answers before hand.
 
 1. Explain the difference between Relational Databases and SQL.
+A relatoinal database holds data with the potential to be accessed (CRUD) by another table of data.
+SQL is how we query and manipulate table data. 
 2. Why do tables need a Primary Key?
+Keys are fields of data that can be resourced to access a differnt table. 
 3. What is the name given to a table column that references the Primary Key on another table?
+Foreign Key
 4. What do we need in order to have a _many to many_ relationship between two tables?
